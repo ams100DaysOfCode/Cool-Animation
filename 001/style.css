@@ -1,8 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,600,700&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Poppins', sans-serif;;
 }
 
 body{
@@ -14,6 +15,7 @@ body{
 }
 
 .container{
+    margin-top: 20%;
     position: relative;
     width: 80px;
     height: 50px;
@@ -35,7 +37,7 @@ body{
     width: 12px;
     height: 12px;
     border-top: 2px solid #fff;
-    border-right: 2px solid #fff;
+    border-left: 2px solid #fff;
     z-index: 1;
     transform: translateY(-50%) rotate(135deg);
     cursor: pointer;
@@ -55,7 +57,7 @@ body{
     width: 12px;
     height: 12px;
     border-top: 2px solid #fff;
-    border-right: 2px solid #fff;
+    border-left: 2px solid #fff;
     z-index: 1;
     transform: translateY(-50%) rotate(315deg);
     cursor: pointer;
@@ -74,9 +76,10 @@ body{
     height: 100%;
     text-align: center;
     line-height: 46px;
+    display: none;
     color: #00deff;
-    font-size: 26px;
     font-weight: 700;
+    font-size: 26px;
     user-select: none;
 }
 
